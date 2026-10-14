@@ -42,7 +42,7 @@ sudo apt install python3 nmap
 ## Usage
 
 ```bash
-git clone https://github.com/<whoismostafa>/netguard.git
+git clone https://github.com/whoismostafa/netguard.git
 cd netguard
 python netguard.py
 ```
