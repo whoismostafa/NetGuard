@@ -4,18 +4,18 @@
 
 Built to run on **Termux** (Android) as well as standard Linux environments.
 
-> ⚠️ **Scope & Legal Notice**
+> **Scope & Legal Notice**
 > NetGuard is intended **only for networks you own or have explicit authorization to test**. Scanning devices or networks without permission is illegal in most jurisdictions and against this project's intended use. The script requires explicit confirmation before running for this reason.
 
 ---
 
 ## Features
 
-- 🔍 **Device Discovery** — Automatically detects your local network range and lists connected devices (IP, MAC address, vendor).
-- 🛡️ **Router Port Audit** — Checks your gateway for commonly risky open ports (Telnet, FTP, UPnP, unencrypted admin panels, etc.).
-- 📊 **Risk Scoring** — Produces an approximate weakness percentage based on scan findings.
-- ✅ **Actionable Recommendations** — Suggests concrete steps to harden your network (disable WPS/UPnP, close unused ports, use WPA2/WPA3, etc.).
-- 📱 **Termux-Friendly** — No root required; works out of the box on Android via Termux.
+- **Device Discovery** — Automatically detects your local network range and lists connected devices (IP, MAC address, vendor).
+- **Router Port Audit** — Checks your gateway for commonly risky open ports (Telnet, FTP, UPnP, unencrypted admin panels, etc.).
+- **Risk Scoring** — Produces an approximate weakness percentage based on scan findings.
+- **Actionable Recommendations** — Suggests concrete steps to harden your network (disable WPS/UPnP, close unused ports, use WPA2/WPA3, etc.).
+- **Termux-Friendly** — No root required; works out of the box on Android via Termux.
 
 ---
 
@@ -70,7 +70,7 @@ IP              MAC                 Vendor
 [+] Router scan (192.168.1.1):
   - Port 23 (Telnet) open — unencrypted remote access, should be disabled
 
-[=] Estimated security weakness score: 15% — Good 🙂
+[=] Estimated security weakness score: 15% — Good 
 ```
 
 ---
